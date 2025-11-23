@@ -48,22 +48,45 @@ The backend computes a score for every player using the following rules:
 
 ## 📁 Folder Structure
 
+# Project Structure — MVP Leaderboard Assignment
+
 MVP-Leaderboard-Assignment/
 │
-├── backend/ # Spring Boot Project
-│ └── src/main/resources/
-│ ├── players.json
-│ └── events.json
+├── backend/                          # Spring Boot Backend
+│   ├── pom.xml
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/mvp/
+│   │   │   │   ├── controller/
+│   │   │   │   │   └── LeaderboardController.java
+│   │   │   │   ├── service/
+│   │   │   │   │   └── LeaderboardService.java
+│   │   │   │   ├── model/
+│   │   │   │   │   ├── Player.java
+│   │   │   │   │   ├── Event.java
+│   │   │   │   │   └── RankedPlayer.java
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       ├── players.json
+│   │   │       └── events.json
+│   │   └── test/
 │
-├── frontend/ # React Project
-│ └── src/components/
-│ ├── Leaderboard.jsx
-│ └── Leaderboard.css
+├── frontend/                         # React + Vite Frontend
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── components/
+│   │       ├── Leaderboard.jsx
+│   │       └── Leaderboard.css
+│   └── public/
 │
-└── output/ # Screenshots & Explanation
-├── full_leaderboard.png
-├── top_performers.png
-└── explanation.md
+└── output/                           # Documentation + Screenshots
+    ├── full_leaderboard.png
+    ├── top_performers.png
+    └── explanation.md
+
 
 
 ---
