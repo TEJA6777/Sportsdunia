@@ -1,0 +1,94 @@
+/* Container */
+.leaderboard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: "Inter", sans-serif;
+  background: #f8f9fc;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1e2a45;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 10px 16px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  background-color: #3f51b5;
+  transition: 0.2s ease-in-out;
+}
+
+.toggle-btn:hover {
+  background-color: #324296;
+}
+
+/* Player list container */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Player Card */
+.player-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #dce2f0;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.player-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Player Info */
+.player-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.player-rank {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3f51b5;
+}
+
+.player-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e2a45;
+}
+
+/* Player Score */
+.player-score {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+/* Empty State */
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #6c7a92;
+}

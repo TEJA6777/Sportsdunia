@@ -1,0 +1,5 @@
+[
+  { "playerId": 101, "action": "50_RUNS_MILESTONE" },
+  { "playerId": 102, "action": "TAKE_WICKET" },
+  { "playerId": 101, "action": "HIT_FOUR" }
+]
